@@ -9,12 +9,14 @@
     </div>
     <start/>
     <first-app/>
+    <bottom />
   </div>
 </template>
 
 <script>
 import Start from "@/modules/HelloWorld/Start";
 import FirstApp from "@/modules/HelloWorld/FirstApp";
+import bottom from "@/modules/HelloWorld/bottom";
 export default {
   name: "HelloWorld",
   data() {
@@ -22,7 +24,8 @@ export default {
   },
   components: {
     Start,
-    FirstApp
+    FirstApp,
+    bottom
   },
   methods: {},
   created() {}
