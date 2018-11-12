@@ -9,14 +9,12 @@
     </div>
     <start/>
     <first-app/>
-    <bottom />
   </div>
 </template>
 
 <script>
 import Start from "@/modules/HelloWorld/Start";
 import FirstApp from "@/modules/HelloWorld/FirstApp";
-import bottom from "@/modules/HelloWorld/bottom";
 export default {
   name: "HelloWorld",
   data() {
@@ -24,8 +22,7 @@ export default {
   },
   components: {
     Start,
-    FirstApp,
-    bottom
+    FirstApp
   },
   methods: {},
   created() {}
@@ -38,7 +35,6 @@ export default {
   background-size: 100% 100%;
   background-position: 0 0;
   text-align: center;
-  margin-top: 61px;
   overflow: hidden;
   height: 800px;
   background-color: #000;

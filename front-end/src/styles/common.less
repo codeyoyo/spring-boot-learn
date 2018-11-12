@@ -13,11 +13,20 @@ img {
 
 .context-box {
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: left;
     ul,
     pre,
-    p {
+    p,
+    h2,
+    h3 {
         margin-top: 20px;
+    }
+    .article-meta {
+        text-align: center;
+        .date {
+            vertical-align: sub;
+        }
     }
     .code {
         margin: 0 2px;
@@ -27,5 +36,66 @@ img {
         border-radius: 2px;
         font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
         background-color: #f8f8f8;
+    }
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+        color: #009688;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    .label {
+        display: inline;
+        margin: 5px;
+        padding: 6px 6px 3px 6px;
+        line-height: 1;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    .shadow {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    }
+    .label-success {
+        background-color: #5cb85c;
+    }
+    .context {
+        padding: 20px;
+        .strong-code {
+            code {
+                margin: 0 2px;
+                color: #e96900;
+                padding: 3px 5px;
+                border-radius: 2px;
+                font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+                background-color: #f8f8f8;
+            }
+        }
+        p {
+            line-height: 25px;
+            .strong-code;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        ul {
+            margin-left: 10px;
+            .strong-code;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        blockquote {
+            position: relative;
+            font-family: Georgia, "Times New Roman", "Microsoft Yahei", serif;
+            font-size: 1.1em;
+            margin: 0 -20px;
+            padding: 10px 20px 10px 54px;
+            background: #fcfcfc;
+            border-left: 4px solid #14517a
+        }
     }
 }
