@@ -1,2 +1,7 @@
 /after-end/.idea
 /after-end/lesson1/.mvn
+.idea
+.mvn
+mvnw.cmd
+.gitignore
+mvnw
