@@ -3,6 +3,7 @@ import scheduled from "@/components/Async/scheduled.md";
 import asyncCall from "@/components/Async/asyncCall.md";
 import taskExecutor from "@/components/Async/taskExecutor.md";
 import taskClose from "@/components/Async/taskClose.md";
+import future from "@/components/Async/future.md";
 
 export default{
     path:'/async',
@@ -41,6 +42,14 @@ export default{
             title:"Spring Boot使用@Async实现异步调用：ThreadPoolTaskScheduler线程池的优雅关闭",
             date:"2018-11-19",
             name:"taskClose"
+        },
+        {
+            path:"future",
+            component:future,
+            cnName:"超时定义",
+            title:"Spring Boot使用@Async实现异步调用：使用Future以及定义超时",
+            date:"2018-11-20",
+            name:"future"
         }
     ]
 }

@@ -6,6 +6,7 @@ import configRouter from "./configRouter";
 import dataRouter from "./dataRouter";
 import webRouter from "./webRouter";
 import asyncRouter from "./asyncRouter";
+import logRouter from "./logRouter";
 
 Vue.use(Router);
 
@@ -20,7 +21,8 @@ const router = new Router({
     configRouter,
     webRouter,
     dataRouter,
-    asyncRouter
+    asyncRouter,
+    logRouter
   ]
 });
 
