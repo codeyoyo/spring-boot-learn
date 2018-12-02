@@ -9,7 +9,9 @@ import '@/styles/animate.css';
 import '@/styles/common.less';
 import 'highlight.js/styles/github.css';
 import hljs from "highlight.js";
+import VueLazyLoad from 'vue-lazyload'
 
+Vue.use(VueLazyLoad);
 Vue.config.productionTip = false;
 Vue.use(iView);
 

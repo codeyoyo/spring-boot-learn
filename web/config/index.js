@@ -43,7 +43,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../../Spoot-Lesson'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: 'https://codeyoyo.github.io/spring-boot-learn/Spoot-Lesson/',
 
     /**
      * Source Maps

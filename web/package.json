@@ -65,6 +65,7 @@
     "url-loader": "^0.5.8",
     "util-deprecate": "^1.0.2",
     "vue-jest": "^1.0.2",
+    "vue-lazyload": "^1.2.6",
     "vue-loader": "^13.3.0",
     "vue-markdown": "^2.2.4",
     "vue-markdown-loader": "^2.4.1",

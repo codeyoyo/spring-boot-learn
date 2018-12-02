@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="hello">
+    <div class="hello" v-lazy>
       <div class="context">
         <h1 class="tada animated">Spring Boot<span>2.0</span></h1>
         <h2>学习笔记</h2>
