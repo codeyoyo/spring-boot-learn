@@ -83,4 +83,4 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 
 到这里为止，本文的内容告一段落。由于博文篇幅问题，对于Flyway更细节的使用没有说的太多，本文主要作为敲门砖，帮助和引导正在使用Spring Boot做系统开发的个人或团队在数据库的版本控制上做的更好提供一些思路。至于更深入的应用还请读者自行翻阅官方文档参考和学习。
 
-[本文完整示例](本文完整示例)
+[完整示例：lesson4-9](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-9)

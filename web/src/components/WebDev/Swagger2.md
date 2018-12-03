@@ -138,7 +138,7 @@ public class UserController {
 
 相比为这些接口编写文档的工作，我们增加的配置内容是非常少而且精简的，对于原有代码的侵入也在忍受范围之内。因此，在构建RESTful API的同时，加入swagger来对API文档进行管理，是个不错的选择。
 
-完整结果示例可查看[Chapter3-1-5](Chapter3-1-5)。
+完整结果示例可查看[lesson3-3](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson3-3)。
 
 ### 参考信息
 

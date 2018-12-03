@@ -99,7 +99,7 @@ public class ApplicationTests {
 }
 ```
 
-[完整示例:Chapter3-2-3](http://git.oschina.net/didispace/SpringBoot-Learning)
+[完整示例：lesson4-3](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-3)
 
 ### Spring-data-jpa支持
 
@@ -296,4 +296,4 @@ public class ApplicationTests {
 }
 ```
 
-[完整示例:Chapter3-2-4](http://git.oschina.net/didispace/SpringBoot-Learning)
+[完整示例：lesson4-4](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-4)

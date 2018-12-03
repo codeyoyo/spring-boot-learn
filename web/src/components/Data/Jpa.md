@@ -162,4 +162,4 @@ public class ApplicationTests {
 }
 ```
 
-[完整示例](完整示例)
+[完整示例：lesson4-2](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-2)

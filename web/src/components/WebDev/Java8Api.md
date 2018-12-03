@@ -79,8 +79,4 @@ public ObjectMapper serializingObjectMapper() {
 
 此时，我们在访问刚才的接口，就不再是数组类型了，同时对于Feign客户端的调用也不会再出现上面的错误了。
 
-### 代码示例
-
-本文的相关例子可以查看下面仓库中的``Chapter3-1-7``目录：
-
-* [Github：https://github.com/dyc87112/SpringBoot-Learning](Github：https://github.com/dyc87112/SpringBoot-Learning)
+[完整示例：lesson3-5](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson3-5)

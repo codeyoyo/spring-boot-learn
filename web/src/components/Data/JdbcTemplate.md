@@ -170,4 +170,4 @@ public class ApplicationTests {
 
 通过上面这个简单的例子，我们可以看到在Spring Boot下访问数据库的配置依然秉承了框架的初衷：简单。我们只需要在pom.xml中加入数据库依赖，再到application.properties中配置连接信息，不需要像Spring应用中创建JdbcTemplate的Bean，就可以直接在自己的对象中注入使用。
 
-[本文完整示例](本文完整示例)
+[完整示例：lesson4-1](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-1)

@@ -189,4 +189,4 @@ public void test() throws Exception {
 
 可以看到，通过异步调用，让任务一、二、三并发执行，有效的减少了程序的总运行时间。
 
-[完整示例Chapter4-1-2](完整示例Chapter4-1-2)
+[完整示例：lesson5-2](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson5-2)

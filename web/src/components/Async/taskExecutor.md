@@ -109,5 +109,5 @@ public class ApplicationTests {
 2018-03-27 22:01:23.912  INFO 73703 --- [ taskExecutor-1] com.didispace.async.Task                 : 完成任务一，耗时：8292毫秒
 ```
 
-[完整示例:lesson5-3](lesson5-3)
+[完整示例：lesson5-3](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson5-3)
 

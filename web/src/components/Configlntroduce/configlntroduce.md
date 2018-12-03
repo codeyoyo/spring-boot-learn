@@ -103,4 +103,4 @@ com.example.lesson.test2=${random.int[10,20]}
 * ``application-{profile}.properties``中配置各个环境不同的内容
 * 通过命令行方式去激活不同环境的配置
 
-[完整示例chapter2-1-1](http://git.oschina.net/didispace/SpringBoot-Learning)
+[完整示例：lesson2-1](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson2-1)

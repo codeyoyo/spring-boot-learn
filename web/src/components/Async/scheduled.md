@@ -57,4 +57,4 @@ public class ScheduledTasks {
 * ``@Scheduled(initialDelay=1000, fixedRate=5000)`` ：第一次延迟1秒后执行，之后按fixedRate的规则每5秒执行一次
 * ``@Scheduled(cron="*/5 * * * * *")`` ：通过cron表达式定义规则
 
-[完整示例Chapter4-1-1](完整示例Chapter4-1-1)
+[完整示例：lesson5-1](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson5-1)

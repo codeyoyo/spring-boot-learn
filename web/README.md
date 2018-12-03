@@ -1,6 +1,6 @@
-# front-end
+# Spring Boot Lesson
 
-> a learn vue project
+> 一个学习vue和记录spring boot学习笔记的项目
 
 ## Build Setup
 

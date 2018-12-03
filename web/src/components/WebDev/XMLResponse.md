@@ -108,8 +108,4 @@ public class UserController {
 
 ![pasted-121.png](../../assets/pasted-121.png)
 
-## 案例代码
-
-可以通过下面两个仓库中查阅``chapter3-1-8``目录：
-
-* [https://github.com/dyc87112/SpringBoot-Learning/](https://github.com/dyc87112/SpringBoot-Learning/)
+[完整示列：lesson3-6](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson3-6)

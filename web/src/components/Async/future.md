@@ -78,4 +78,4 @@ public class ApplicationTests {
 
 上面的代码中，我们在get方法中还定义了该线程执行的超时时间，通过执行这个测试我们可以观察到执行时间超过5秒的时候，这里会抛出超时异常，该执行线程就能够因执行超时而释放回线程池，不至于一直阻塞而占用资源。
 
-[完整示例：lesson5-5](lesson5-5)
+[完整示例：lesson5-5](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson5-5)

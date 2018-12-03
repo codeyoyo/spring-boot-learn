@@ -89,4 +89,4 @@ log4j.appender.errorfile.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss,SSS} %5
 
 本文主要介绍如何在spring boot中引入log4j，以及一些基础用法，对于更多log4j的用法，还请参考[log4j官方网站](http://logging.apache.org/log4j/1.2/)
 
-[完整示列：lesson6-1](lesson6-1)
+[完整示列：lesson6-1](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson6-1)

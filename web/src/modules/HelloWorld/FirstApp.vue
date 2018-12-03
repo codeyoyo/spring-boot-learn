@@ -70,7 +70,7 @@
                     </p>
                     <test v-highlight />
                     <p>
-                      使用<span class="code">MockServletContext</span>来构建一个空的<span class="code">WebApplicationContext</span>，这样我们创建的<span class="code">HelloController</span>就可以在<span class="code">@Before</span>函数中创建并传递到<span class="code">MockMvcBuilders.standaloneSetup（）</span>函数中。
+                      使用<span class="code">MockServletContext</span>来构建一个空的<span class="code">WebApplicationContext</span>，这样我们创建的<span class="code">HelloController</span>就可以在<span class="code">@Before</span>函数中创建并传递到<span class="code">MockMvcBuilders.standaloneSetup()</span>函数中。
                     </p>
                     <ul>
                       <li>

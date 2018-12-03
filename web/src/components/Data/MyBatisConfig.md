@@ -186,4 +186,4 @@ spring.data.mongodb.option.local-threshold=15
 本文主要介绍几种最为常用的方式，更多其他注解的使用可参见文档：
 [http://www.mybatis.org/mybatis-3/zh/java-api.html](http://www.mybatis.org/mybatis-3/zh/java-api.html)
 
-本文示例完整代码：[Chapter3-2-8](Chapter3-2-8)
+[完整示例：lesson4-8](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-8)

@@ -190,4 +190,4 @@ public class ApplicationTests {
 
 当然spring-data-redis中提供的数据操作远不止这些，本文仅作为在Spring Boot中使用redis时的配置参考，更多对于redis的操作使用，请参考[Spring-data-redis Reference](http://docs.spring.io/spring-data/redis/docs/1.6.2.RELEASE/reference/html/)。
 
-[本文完整示例chapter3-2-5](http://git.oschina.net/didispace/SpringBoot-Learning)
+[完整示例：lesson4-5](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-5)

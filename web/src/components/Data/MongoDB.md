@@ -121,3 +121,5 @@ spring.data.mongodb.uri=mongodb://name:pass@localhost:27017/test
 ```
 spring.data.mongodb.host=localhost spring.data.mongodb.port=27017
 ```
+
+[完整示例：lesson4-6](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-6)

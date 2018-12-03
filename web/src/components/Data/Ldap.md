@@ -158,8 +158,4 @@ spring.ldap.username=didispace
 spring.ldap.password=123456
 ```
 
-## 本文代码
-
-可以通过下面两个仓库中查阅``chapter3-2-10``目录：
-
-[完整示例](完整示例)
+[完整示例：lesson4-10](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-10)

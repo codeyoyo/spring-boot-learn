@@ -4,7 +4,7 @@ Spring中整合MyBatis就不多说了，最近大量使用Spring Boot，因此�
 
 ## 整合MyBatis
 
-* 新建Spring Boot项目，或以[Chapter1](Chapter1)为基础来操作
+* 新建Spring Boot项目，或以[lesson1](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson1)为基础来操作
 
 * ``pom.xml``中引入依赖
 
@@ -127,4 +127,4 @@ public class ApplicationTests {
 }
 ```
 
-完整示例[Chapter3-2-7](Chapter3-2-7)
+[完整示例：lesson4-7](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-7)

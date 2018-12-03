@@ -184,7 +184,5 @@ System.out.println(post);
 List<PostInfo> posts = binder.bind("com.didispace.posts", Bindable.listOf(PostInfo.class)).get();
 System.out.println(posts);
 ```
-## 代码示例
-本文的相关例子可以查看下面仓库中的``Chapter2-2-1``目录：  
 
-[Github：https://github.com/dyc87112/SpringBoot-Learning](https://github.com/dyc87112/SpringBoot-Learning)
+[完整示列：lesson2-2](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson2-2)

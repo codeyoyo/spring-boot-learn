@@ -129,8 +129,4 @@ public class Application {
 2018-03-07 18:15:20.847  INFO 83387 --- [main] c.d.ApplicationReadyEventListener        : ......ApplicationReadyEvent......
 ```
 
-## 代码示例
-
-本文的相关例子可以查看下面仓库中的``Chapter1-2-1``目录：
-
-* [Github：https://github.com/dyc87112/SpringBoot-Learning](Github：https://github.com/dyc87112/SpringBoot-Learning)
+[完整示例：lesson2-3](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson2-3)

@@ -10,9 +10,9 @@
 
 在Spring Boot中，当我们使用了spring-boot-starter-jdbc或spring-boot-starter-data-jpa依赖的时候，框架会自动默认分别注入DataSourceTransactionManager或JpaTransactionManager。所以我们不需要任何额外配置就可以用@Transactional注解进行事务的使用。
 
-我们以之前实现的《用spring-data-jpa访问数据库》的示例[Chapter3-2-2](Chapter3-2-2)作为基础工程进行事务的使用常识。
+我们以之前实现的《用spring-data-jpa访问数据库》的示例[lesson4-2](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-2)作为基础工程进行事务的使用常识。
 
-在该样例工程中（若对该数据访问方式不了解，可先阅读该[文章](/Data/Jpa)），我们引入了spring-data-jpa，并创建了User实体以及对User的数据访问对象UserRepository，在ApplicationTest类中实现了使用UserRepository进行数据读写的单元测试用例，如下：
+在该样例工程中（若对该数据访问方式不了解，可先阅读该[文章](#/Data/Jpa)），我们引入了spring-data-jpa，并创建了User实体以及对User的数据访问对象UserRepository，在ApplicationTest类中实现了使用UserRepository进行数据读写的单元测试用例，如下：
 
 ```
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -195,4 +195,4 @@ public enum Propagation {
 @Transactional(propagation = Propagation.REQUIRED)
 ```
 
-完整示例[Chapter3-3-1](Chapter3-3-1)
+[完整示例：lesson4-12](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-12)

@@ -134,4 +134,4 @@ spring.thymeleaf.suffix=.html  spring.thymeleaf.template-resolver-order= # Order
 
 Spring Boot并不建议使用，但如果一定要使用，可以参考此工程作为脚手架：[JSP支持](https://github.com/spring-projects/spring-boot/tree/v1.3.2.RELEASE/spring-boot-samples/spring-boot-sample-web-jsp)
 
-[Spring Boot教程完整案例](http://git.oschina.net/didispace/SpringBoot-Learning)
+[完整示例：lesson3-2](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson3-2)

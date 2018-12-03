@@ -147,4 +147,4 @@ public class ApplicationTests {
 
 至此，我们通过引入web模块（没有做其他的任何配置），就可以轻松利用Spring MVC的功能，以非常简洁的代码完成了对User对象的RESTful API的创建以及单元测试的编写。其中同时介绍了Spring MVC中最为常用的几个核心注解：``@Controller``,``@RestController``,``RequestMapping``以及一些参数绑定的注解：``@PathVariable``,``@ModelAttribute``,``@RequestParam``等。
 
-[Spring Boot教程完整案例](http://git.oschina.net/didispace/SpringBoot-Learning)
+[完整示例：lesson3-1](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson3-1)
