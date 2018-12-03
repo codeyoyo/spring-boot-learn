@@ -38,12 +38,12 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../../Spoot-Lesson/index.html'),
+    index: path.resolve(__dirname, '../../pages/index.html'),
 
     // Paths
-    assetsRoot: path.resolve(__dirname, '../../Spoot-Lesson'),
+    assetsRoot: path.resolve(__dirname, '../../pages'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: 'https://codeyoyo.github.io/spring-boot-learn/Spoot-Lesson/',
+    assetsPublicPath: 'https://codeyoyo.github.io/spring-boot-learn/pages/',
 
     /**
      * Source Maps
