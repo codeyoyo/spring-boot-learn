@@ -5,7 +5,9 @@
 
 ## 项目结构
 > __springboot__ :Spring Boot教程程序源码
+
 > __web__ :一个用VUE构建的前端项目，用于项目示例文章存储以及演示
+
 > __pages__:又__web__编译成的静态页面，用手在线演示
 
 [项目演示请点击这里](https://codeyoyo.github.io/spring-boot-learn/pages/)
