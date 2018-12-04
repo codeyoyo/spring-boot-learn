@@ -44,6 +44,14 @@ spring:
   my-example:
     url: http://example.com, http://spring.io
 ```
+使用yaml文件配置先引用以下maven库：
+```
+<!-- 支持识别yml配置 -->
+<dependency>  
+  <groupId>com.fasterxml.jackson.dataformat</groupId>
+  <artifactId>jackson-dataformat-yaml</artifactId>
+</dependency>
+```
 **注意：在Spring Boot 2.0中对于List类型的配置必须是连续的，不然会抛出**``UnboundConfigurationPropertiesException``**异常，所以如下配置是不允许的：**
 ```
 foo[0]=a

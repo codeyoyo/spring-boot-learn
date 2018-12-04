@@ -9,6 +9,7 @@ import MyBatisConfig from "@/components/Data/MyBatisConfig.md";
 import Flyway from "@/components/Data/Flyway.md";
 import LDAP from "@/components/Data/LDAP.md";
 import Transaction from "@/components/Data/Transaction.md";
+import MongoDBConfig from "@/components/Data/MongoDBConfig.md";
 
 export default {
     path: "/Data",
@@ -89,12 +90,20 @@ export default {
             date: '2018-11-14'
         },
         {
+            name: "MongoDBConfig",
+            path: "MongoDBConfig",
+            cnName: "增强MongoDB配置",
+            title: "Spring Boot中增强对MongoDB的配置（连接池等）",
+            component: MongoDBConfig,
+            date: '2018-11-15'
+        },
+        {
             name: "Transaction",
             path: "Transaction",
             cnName: "事务管理",
             title: "Spring Boot中的事务管理",
             component: Transaction,
-            date: '2018-11-15'
+            date: '2018-11-16'
         }
     ]
 };
