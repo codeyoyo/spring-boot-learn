@@ -1,25 +1,34 @@
 <template>
   <div id="app">
     <div class="menu wrapper-header-nav">
-      <i-menu mode="horizontal" theme='light' active-name="1" @on-select="toLink">
+      <i-menu
+        mode="horizontal"
+        theme="light"
+        :active-name="activeName"
+        @on-select="toLink"
+      >
         <div :key="index" v-for="(item,index) in routerList">
           <menu-item :name="item.path" v-if="!item.children">
-              <Icon type="ios-paper" />
-                {{item.cnName}}
+            <Icon type="ios-paper"/>
+            {{item.cnName}}
           </menu-item>
-          <submenu v-if="item.children" :name='item.name'>
-              <template slot="title">
-                  <icon type="md-cog" />
-                  {{item.cnName}}
-              </template>
-              <menu-item :key="idx" v-for="(im,idx) in item.children" :name="item.path+'/'+im.path">{{im.cnName}}</menu-item>
+          <submenu v-if="item.children" :name="item.name">
+            <template slot="title">
+              <icon type="md-cog"/>
+              {{item.cnName}}
+            </template>
+            <menu-item
+              :key="idx"
+              v-for="(im,idx) in item.children"
+              :name="item.path+'/'+im.path"
+            >{{im.cnName}}</menu-item>
           </submenu>
         </div>
       </i-menu>
     </div>
     <div style="height:61px;"></div>
     <router-view/>
-    <bottom />
+    <bottom/>
     <back-top></back-top>
   </div>
 </template>
@@ -31,7 +40,8 @@ export default {
   name: "App",
   data() {
     return {
-      routerList: []
+      routerList: [],
+      activeName: "/"
     };
   },
   components: {
@@ -46,11 +56,15 @@ export default {
   },
   created() {
     this.routerList = this.$router.options.routes;
-    console.log("routerList", this.routerList);
+    let hash = window.location.hash;
+    if(hash){
+      this.activeName=hash.substr(1,hash.length);
+    }
   },
   watch: {
     $route: {
       handler: function(val, oldVal) {
+        this.activeName=val.path;
         this.$nextTick(function() {
           //页面加载完成后执行
           document.body.scrollTop = document.documentElement.scrollTop = 0;

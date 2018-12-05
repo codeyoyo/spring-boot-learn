@@ -2,6 +2,7 @@ import commonView from '@/components';
 import defaultLog from "@/components/Log/defaultLog.md";
 import log4j from "@/components/Log/log4j.md";
 import logLevel from "@/components/Log/logLevel.md";
+import requestLog from "@/components/Log/requestLog.md";
 
 export default{
     path:'/log',
@@ -32,6 +33,14 @@ export default{
             title:"Spring Boot中对log4j进行多环境不同日志级别的控制",
             date:'2018-11-23',
             name:"logLevel"
+        },
+        {
+            path:"requestLog",
+            component:requestLog,
+            cnName:"统一处理请求日志",
+            title:"Spring Boot中使用AOP统一处理Web请求日志",
+            date:'2018-11-24',
+            name:"requestLog"
         }
     ]
 }

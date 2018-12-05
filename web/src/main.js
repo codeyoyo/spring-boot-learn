@@ -7,7 +7,7 @@ import iView from 'iview';
 import 'iview/dist/styles/iview.css';
 import '@/styles/animate.css';
 import '@/styles/common.less';
-import 'highlight.js/styles/github.css';
+import 'highlight.js/styles/atom-one-dark.css';
 import hljs from "highlight.js";
 import VueLazyLoad from 'vue-lazyload'
 

@@ -1,6 +1,6 @@
 之前在Spring Boot中整合MyBatis时，采用了注解的配置方式，相信很多人还是比较喜欢这种优雅的方式的，也收到不少读者朋友的反馈和问题，主要集中于针对各种场景下注解如何使用，下面就对几种常见的情况举例说明用法。
 
-在做下面的示例之前，先准备一个整合好MyBatis的工程，可参见[Spring Boot整合MyBatis](/Data/MyBatis)，也可直接使用整合好的样例：[Chapter3-2-7](Chapter3-2-7)。
+在做下面的示例之前，先准备一个整合好MyBatis的工程，可参见[Spring Boot整合MyBatis](#/Data/MyBatis)，也可直接使用整合好的样例：[lesson4-7](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-7)。
 
 ## 传参方式
 
@@ -124,66 +124,5 @@ public void testUserMapper() throws Exception {
 	}
 }
 ```
-## Spring Boot中增强对MongoDB的配置（连接池等）
-
-### spring-boot-starter-mongodb-plus使用
-
-1. 在使用了``spring-boot-starter-data-mongodb``的项目中，增加以下依赖
-
-```
-<dependency>
-    <groupId>com.spring4all</groupId>
-    <artifactId>mongodb-plus-spring-boot-starter</artifactId>
-    <version>1.0.0.RELEASE</version>
-</dependency>
-```
-
-1. 在应用主类上增加``@EnableMongoPlus``注解，比如：
-
-```
-@EnableMongoPlus
-@SpringBootApplication
-public class Application {
-
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
-    }
-
-}
-```
-
-### 可用配置参数
-
-可配置参数如下：
-
-```
-spring.data.mongodb.option.min-connection-per-host=0
-spring.data.mongodb.option.max-connection-per-host=100
-spring.data.mongodb.option.threads-allowed-to-block-for-connection-multiplier=5
-spring.data.mongodb.option.server-selection-timeout=30000
-spring.data.mongodb.option.max-wait-time=120000
-spring.data.mongodb.option.max-connection-idle-time=0
-spring.data.mongodb.option.max-connection-life-time=0
-spring.data.mongodb.option.connect-timeout=10000
-spring.data.mongodb.option.socket-timeout=0
-
-spring.data.mongodb.option.socket-keep-alive=false
-spring.data.mongodb.option.ssl-enabled=false
-spring.data.mongodb.option.ssl-invalid-host-name-allowed=false
-spring.data.mongodb.option.always-use-m-beans=false
-
-spring.data.mongodb.option.heartbeat-socket-timeout=20000
-spring.data.mongodb.option.heartbeat-connect-timeout=20000
-spring.data.mongodb.option.min-heartbeat-frequency=500
-spring.data.mongodb.option.heartbeat-frequency=10000
-spring.data.mongodb.option.local-threshold=15
-```
-
-*上述配置值均为默认值*
-
-## 后记
-
-本文主要介绍几种最为常用的方式，更多其他注解的使用可参见文档：
-[http://www.mybatis.org/mybatis-3/zh/java-api.html](http://www.mybatis.org/mybatis-3/zh/java-api.html)
 
 [完整示例：lesson4-8](https://github.com/codeyoyo/spring-boot-learn/tree/master/springboot/lesson4-8)
